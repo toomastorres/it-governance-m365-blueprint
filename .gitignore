@@ -1,0 +1,37 @@
+# Secretos, bóvedas de credenciales y accesos remotos — NUNCA versionar
+*.kdbx
+*.keyx
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+*.rdp
+*.ovpn
+*.vpn
+.env
+.env.*
+
+# Documentos operativos con datos reales, inventarios o facturas — NUNCA versionar
+*.xlsx
+*.xls
+*.csv
+*.docx
+*.doc
+*.pdf
+~$*
+
+# Binarios e instaladores pesados (Capítulo 09)
+*.exe
+*.msi
+*.intunewin
+*.iso
+*.zip
+
+# Archivos temporales de sistema / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.claude/
